@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_TrackYourPoint"
+            android:icon="@drawable/point_tracking"
+            android:title="@string/track_your_point" />
+        <item
+            android:id="@+id/nav_Announcement"
+            android:icon="@drawable/img_456677"
+            android:title="@string/announcement" />
+        <item
+            android:id="@+id/nav_Myinfo"
+            android:icon="@android:drawable/stat_notify_chat"
+            android:title="@string/my_info" />
+        <item
+            android:id="@+id/nav_DriverDetails"
+            android:icon="@drawable/bus_driver"
+            android:title="@string/driver_details" />
+        <item
+            android:id="@+id/nav_Route"
+            android:icon="@drawable/routes"
+            android:title="Route" />
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_Feedback"
+                android:icon="@drawable/feedback"
+                android:title="@string/feedback" />
+
+        </menu>
+    </item>
+
+
+</menu>

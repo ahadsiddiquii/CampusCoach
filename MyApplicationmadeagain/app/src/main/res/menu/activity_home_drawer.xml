@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_TrackDrivers"
+            android:icon="@drawable/point_tracking"
+            android:title="@string/track_drivers" />
+        <item
+            android:id="@+id/nav_Announcement"
+            android:icon="@drawable/img_456677"
+            android:title="@string/announcement" />
+        <item
+            android:id="@+id/nav_Studentinfo"
+            android:icon="@drawable/studinfo2"
+            android:title="@string/student_info" />
+        <item
+            android:id="@+id/nav_DriverDetails"
+            android:icon="@drawable/bus_driver"
+            android:title="@string/driver_details" />
+        <item
+            android:id="@+id/nav_Routes"
+            android:icon="@drawable/routes"
+            android:title="@string/routes" />
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+        <!--<item-->
+            <!--android:id="@+id/check"-->
+            <!--android:icon="@drawable/logout"-->
+            <!--android:title="Check" />-->
+    </group>
+
+</menu>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.adminapi">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyCt5RE2bci-kX7YsN5f2lBKL-dz4vrc0aQ" />
+
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:roundIcon="@mipmap/launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+        <activity android:name=".OpenAnnouncement"
+            android:parentActivityName=".AnnouncementsUpdated"></activity>
+        <activity
+            android:name=".AddStudent"
+            android:parentActivityName=".StudentDetailsUpdated" />
+        <activity
+            android:name=".AddDriver"
+            android:parentActivityName=".DriverDetailsUpdated" />
+        <activity
+            android:name=".DriverDetailsUpdated"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".OpenStudentDetails"
+            android:parentActivityName=".StudentDetailsUpdated" />
+        <activity
+            android:name=".StudentDetailsUpdated"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".AddAnnouncement"
+            android:parentActivityName=".AnnouncementsUpdated" />
+        <activity
+            android:name=".AnnouncementsUpdated"
+            android:parentActivityName=".Home" />
+        <activity android:name=".DeleteDriver" />
+        <activity
+            android:name=".MessageActivity"
+            android:parentActivityName=".AnnouncementsUpdated" />
+        <activity android:name=".AboutUs" />
+        <activity
+            android:name=".AddRouteActivity"
+            android:parentActivityName=".retrieveroutes" />
+        <activity
+            android:name=".OpenRoutes"
+            android:parentActivityName=".retrieveroutes" />
+        <activity
+            android:name=".retrieveroutes"
+            android:parentActivityName=".Home" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivityAllDrivers"
+            android:label="@string/title_activity_maps_all_drivers"
+            android:parentActivityName=".Home" />
+        <activity android:name=".MapsActivityDriver" />
+        <activity
+            android:name=".StudentDetailsNew"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".StudentDetails"
+            android:label="@string/title_activity_student_details" />
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".RoutesAct1" />
+        <activity
+            android:name=".DriverRegistration"
+            android:parentActivityName=".DriverDetails" />
+        <activity
+            android:name=".DriverDetails"
+            android:label="@string/title_activity_driver_details"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Announcements"
+            android:label="@string/title_activity_announcements"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".AdminLog"
+            android:label="@string/title_activity_admin_log" />
+        <activity
+            android:name=".LoginAdmin"
+            android:label="@string/title_activity_login_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
