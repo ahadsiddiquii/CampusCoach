@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".retrieverouteyourdriver">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text=" "/>
+        <TextView
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/pTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pPno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation1"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation2"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/pLocation3"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/pLocation4"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/pLocation5"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation6"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation7"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation8"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation9"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation10"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation11"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation12"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation13"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation14"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation15"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation16"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/pLocation17"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

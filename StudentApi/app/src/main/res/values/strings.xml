@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">Campus Coach</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="track_your_point">Track Your Point</string>
+    <string name="feedback">Feedback</string>
+    <string name="my_info">My Info</string>
+    <string name="driver_details">Driver Details</string>
+    <string name="announcement">Announcement</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_home">Home</string>
+    <string name="feedbacktype1">Complement</string>
+    <string name="feedbacktype3">Suggestion</string>
+    <string name="feedbacktype4">Bug</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="campus_coach">CAMPUS COACH</string>
+
+    <!-- Strings related to login -->
+    <string name="email">Email:</string>
+    <string name="enter_your_credentials">Enter Your Credentials</string>
+    <string name="password">Password:</string>
+    <string name="log_in">LOG IN</string>
+    <string name="todo">TODO</string>
+    <string name="Parents">Parent</string>
+    <string name="Student">Student</string>
+    <string name="title_activity_parents_maps">Map</string>
+</resources>
